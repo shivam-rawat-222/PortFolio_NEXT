@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Facts from "@/components/Facts";
 import Footer from "@/components/Footer";
+import Leetcode from "@/components/Leetcode";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Projects />
       <Facts />
+      <Leetcode />
       <Footer />
     </>
   );
